@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Graphik LC";
+  src: url("../fonts/Graphik.ttf"); }
+
+.lexus {
+  padding: 36px; }
+
+.lexus-header {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-weight: 200;
+  border-bottom: 1px solid #5A5A5A; }
+  .lexus-header #lexus-logo {
+    margin-bottom: 27px; }
+    .lexus-header #lexus-logo img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+  .lexus-header h1.header-lexus {
+    padding: 5px;
+    font-family: Graphik LC;
+    font-size: 54px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF; }
+  .lexus-header p {
+    font-family: Graphik LC;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #C4C4C4;
+    margin-bottom: 27px; }
+    .lexus-header p a {
+      color: #39ff88;
+      text-decoration: none; }
+
+.lexus-cars {
+  padding-top: 17px; }
